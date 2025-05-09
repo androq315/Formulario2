@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 100vh;
+  background: #fafafb;
+  box-sizing: border-box;
+}
+
+
+
+main {
+  width: 100%; 
+  background-color: #fffffe;
+  padding: 5%;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+  display: flexbox;
+}
+
+#historial {
+  display: flex;
+  margin: 0%;
+  justify-content: space-between;
+  align-items: start;
+}
+
+#historial h2 {
+  margin: 0%
+};
+
+#historial button{
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #1769ff; /* azul intenso */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 6px;
+
+
+}
+
+
+
+#icon {
+  background-color: white;
+  color: #1769ff;
+  font-weight: bold;
+  padding: 0.2rem 0.4rem;
+  border-radius: 2px;
+  font-size: 0.9rem;
+}
+
+
+#bloque {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bloque h4 {
+  margin: 0%;
+}
