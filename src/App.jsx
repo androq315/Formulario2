@@ -3,6 +3,8 @@ import HorizontalList from "./components/HorizontalList";
 import { Paciente } from "./data";
 import Antecedentes from "./components/Antedecentes";
 import RiesgoCardiovascular from "./components/RiesgoCardiovascular";
+import RiesgoSaludMental from "./components/RiegosSaludMental";
+import RiesgoAdicionales from "./components/RIegosAdicionales";
 
 function App() {
   const datos = Paciente[0]
@@ -20,6 +22,9 @@ function App() {
           <EstadoPaciente/>
           <Antecedentes/>
           <RiesgoCardiovascular/>
+          <RiesgoSaludMental/>
+          <RiesgoAdicionales/>
+
         </div>
         </div>
       </main>

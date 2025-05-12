@@ -21,8 +21,42 @@ const RiesgoCardiovascular = () => {
             
     <div>
     <div id="celdas">
-        <Input titulo={"Antecedentes madre"}/>
+        <AutoDesplegable items={Opciones[2]} titulo={"Hipertencion"}/>
         <Observaciones titulo={"Observaciones"}/>
+
+    </div>
+    <div id="celdas">
+        <AutoDesplegable items={Opciones[2]} titulo={"Enfermedades de corazón"}/>
+        <Observaciones titulo={"Observaciones"}/>
+
+    </div>
+
+    <div id="celdas">
+        <AutoDesplegable items={Opciones[2]} titulo={"Diabetes"}/>
+        <Observaciones titulo={"Observaciones"}/>
+
+    </div>
+    <div id="celdas">
+        <AutoDesplegable items={Opciones[2]} titulo={"Problemas renales"}/>
+        <Observaciones titulo={"Observaciones"}/>
+
+    </div>
+    <div id="celdas">
+        <AutoDesplegable items={Opciones[2]} titulo={"Sobre peso"}/>
+        <Observaciones titulo={"Observaciones"}/>
+
+    </div>
+
+    <div id="celdas">
+        <AutoDesplegable items={Opciones[2]} titulo={"Actividad Fisica"}/>
+        <Observaciones titulo={"Observaciones"}/>
+
+    </div>
+    <div id="celdas">
+        <AutoDesplegable items={Opciones[2]} titulo={"Fumador"}/>
+        <Input titulo={"Años de fumador"}/>
+        <Input titulo={"Numero de cigarrillo"}/>
+
     </div>
     </div>)}
      </div>

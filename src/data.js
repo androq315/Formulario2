@@ -37,4 +37,18 @@ export const Opciones = [[
     "Casi siempre",
     "Nunca"
   ],
+
+[
+    "(0) Nunca",
+    "(1) una o menos veces al mes",
+    "(2) 2 a 3 veces al mes",
+    "(3) 3 a 5 vexes al mes"
+  ],
+
+[
+    "1 o 2",
+    "3 o 4",
+    "5 o 6",
+    "7 o 8"
+  ]
 ]
