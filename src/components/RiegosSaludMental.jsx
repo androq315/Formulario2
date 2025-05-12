@@ -3,7 +3,7 @@ import { Opciones } from "../data";
 import Input from "./inputs/Input";
 import { useState } from "react";
 import Observaciones from "./inputs/Observaciones";
-
+// holaaaaaa
 const RiesgoSaludMental = () => {
   const [abierto, setAbierto] = useState(false);
   return (
